@@ -31,8 +31,9 @@ body {
 
 .bear {
     width: 20vw; 
-    height: auto; 
+    height: 20vw; 
     background-size: cover;
+    object-fit: contain;
 }
 
 .icon {
@@ -47,4 +48,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+.message {
+    font-size: 20px;
+    color: #333;
+    margin-left: 20px;
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    vertical-align: top;
+    width: 200px;
+}
+.bear-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bg-rain {
+    background-color: #87CEEB; /* Light blue for rain */
+}
+.bg-heart {
+    background-color: #FFC0CB; /* Pink for heart */
+}
+.bg-moon {
+    background-color: #2E3B4E; /* Dark blue for moon */
 }
